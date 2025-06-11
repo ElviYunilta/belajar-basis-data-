@@ -1,0 +1,23 @@
+# Cosmetic Retail Database
+
+Proyek ini adalah implementasi database untuk sistem retail penjualan kosmetik menggunakan MySQL.
+
+## Struktur Database
+- **Customers**: Data pelanggan.
+- **Products**: Data produk kosmetik.
+- **Suppliers**: Data supplier produk kosmetik.
+- **Sales**: Data transaksi penjualan.
+- **SaleDetails**: Rincian setiap transaksi (produk yang dibeli, jumlah, subtotal).
+- **Inventory**: Stok produk yang tersedia di toko.
+
+## Cara Menjalankan
+1. Buat database baru di MySQL.
+2. Jalankan skrip `create_tables.sql` untuk membuat tabel.
+3. Jalankan skrip `insert_data.sql` untuk menambahkan data contoh.
+4. Gunakan skrip `queries.sql` untuk menjalankan query tambahan.
+
+## Query Tambahan
+- **Produk Terlaris**: Menampilkan produk yang paling sering dibeli.
+- **Stok Produk yang Menipis**: Menampilkan produk dengan stok kurang dari 20.
+- **Total Penjualan Harian**: Menampilkan total penjualan per hari.
+- **Pelanggan dengan Total Belanja Terbanyak**: Menampilkan pelanggan yang paling banyak berbelanja.
